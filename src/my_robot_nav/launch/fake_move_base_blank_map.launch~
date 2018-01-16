@@ -1,0 +1,10 @@
+<launch>
+<!--用空白地图运行地图服务器-->
+<node name="map_server" pkg="map_server" type="map_server" args="$(find
+rbx1_nav)/maps/blank_map.yaml"/>
+<!-- 启动move_base并加载所有导航参数  -->
+<include file="$(find my_nav)/launch/fake_move_base.launch" />
+<!-- 运行/ odom和/ map - >之间的静态转换-->
+<node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster"
+args="0 0 0 0 0 0 /odom /map 100" />
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/zhuoli/camera_test/src/my_robot_nav/build/devel
+
+Name: my_robot_nav
+Description: Description of my_robot_nav
+Version: 0.0.0
+Cflags: -I/home/zhuoli/camera_test/src/my_robot_nav/build/devel/include
+Libs: -L/home/zhuoli/camera_test/src/my_robot_nav/build/devel/lib 
+Requires: dynamic_reconfigure

@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find my_nrobot_nav)/launch/rplidar_laser.launch" >
+  <include file="$(find my_nrobot_nav)/params/gmapping/slam_gmapping.xml" >
+
+</launch>

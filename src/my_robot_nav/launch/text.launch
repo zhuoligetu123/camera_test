@@ -1,0 +1,5 @@
+<launch>
+   <include file="$(find my_robot_nav)/launch/my_robot_rplidar_laser.launch" />
+   <include file="$(find my_robot_nav)/launch/my_robot_gmapping.launch" />
+  
+</launch>

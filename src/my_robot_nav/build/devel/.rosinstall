@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zhuoli/camera_test/src/my_robot_nav/build/devel/setup.sh
